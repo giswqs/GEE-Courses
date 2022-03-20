@@ -1,4 +1,7 @@
 --find-links=https://girder.github.io/large_image_wheels GDAL
-geemap
+git+https://github.com/giswqs/geemap
+git+https://github.com/giswqs/leafmap
 geopandas
-leafmap
+keplergl
+localtileserver
+pydeck
