@@ -1,0 +1,47 @@
+site_name: Mkdocs Template
+
+site_url: https://giswqs.github.io/mkdocs-template
+
+repo_url: https://github.com/giswqs/mkdocs-template
+
+theme:
+  palette:
+    scheme: preference
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    # - navigation.expand
+    # - navigation.tabs
+    - search.highlight
+  custom_dir: "docs/overrides"
+
+plugins:
+  - search
+  - mkdocstrings
+  - git-revision-date
+  - mkdocs-jupyter:
+      include_source: True
+      execute: True
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+
+# google_analytics:
+#   - UA-XXXXXXXX-X
+#   - auto
+
+nav:
+  - Home: index.md
+  - Chapter 1:
+      - chapter_01/intro.ipynb
+      - chapter_01/basemaps.ipynb
+  - Chapter 2:
+      - chapter_02/colorbar.ipynb
+      - chapter_02/heatmap.ipynb
+  - Blog: https://blog.gishub.org
+  - YouTube Channel: https://www.youtube.com/c/QiushengWu
+  - Report Issues: https://github.com/giswqs/mkdocs-template/issues
