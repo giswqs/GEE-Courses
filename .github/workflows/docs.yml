@@ -22,3 +22,11 @@ jobs:
         run: mkdocs gh-deploy --force
         env:
           RUN_GITHUB_ACTION: ${{ secrets.RUN_GITHUB_ACTION }}
+          DIM_TOKEN: ${{ secrets.DIM_TOKEN }}
+          DP_TOKEN: ${{ secrets.DP_TOKEN }}
+          EARTHENGINE_TOKEN: ${{ secrets.EARTHENGINE_TOKEN }}
+          HEREMAPS_API_KEY: ${{ secrets.HEREMAPS_API_KEY }}
+          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+          PLANET_API_KEY: ${{ secrets.PLANET_API_KEY }}
+          USE_FOLIUM: ${{ secrets.USE_FOLIUM }}
+          USE_MKDOCS: ${{ secrets.USE_MKDOCS }}
