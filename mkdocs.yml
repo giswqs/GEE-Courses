@@ -1,8 +1,8 @@
-site_name: Mkdocs Template
+site_name: GEE Courses
 
-site_url: https://giswqs.github.io/mkdocs-template
+site_url: https://giswqs.github.io/GEE-Courses
 
-repo_url: https://github.com/giswqs/mkdocs-template
+repo_url: https://github.com/giswqs/GEE-Courses
 
 theme:
   palette:
@@ -44,4 +44,4 @@ nav:
       - chapter_02/heatmap.ipynb
   - Blog: https://blog.gishub.org
   - YouTube Channel: https://www.youtube.com/c/QiushengWu
-  - Report Issues: https://github.com/giswqs/mkdocs-template/issues
+  - Report Issues: https://github.com/giswqs/GEE-Courses/issues
