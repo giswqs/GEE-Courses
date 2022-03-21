@@ -1,6 +1,6 @@
 site_name: GEE Courses
 
-site_url: https://gee-courses.gishub.org
+site_url: https://courses.geemap.org
 
 repo_url: https://github.com/giswqs/GEE-Courses
 
@@ -23,7 +23,8 @@ plugins:
   - git-revision-date
   - mkdocs-jupyter:
       include_source: True
-      execute: True
+      ignore_h1_titles: False
+      execute: False
 
 markdown_extensions:
   - attr_list
@@ -36,8 +37,32 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - GEE Intro:
+      - Image:
+          - gee_intro/Image/image_visualization.ipynb
+          - gee_intro/Image/image_metadata.ipynb
+          - gee_intro/Image/image_overview.ipynb
+          - gee_intro/Image/math_operations.ipynb
+          - gee_intro/Image/conditional_operations.ipynb
+          - gee_intro/Image/image_colorbar.ipynb
+      - Image Collection:
+          - gee_intro/ImageCollection/image_collection_overview.ipynb
+          - gee_intro/ImageCollection/reducing_image_collection.ipynb
+          - gee_intro/ImageCollection/mapping_over_image_collection.ipynb
+          - gee_intro/ImageCollection/cloud_free_composite.ipynb
+          - gee_intro/ImageCollection/visualizing_time_series.ipynb
+      - Feature Collection:
+          - gee_intro/FeatureCollection/vector_styling.ipynb
+      - Asset Management:
+          - gee_intro/AssetManagement/export_data.ipynb
+          - gee_intro/AssetManagement/extract_values.ipynb
+      - Analysis:
+          - gee_intro/Analysis/zonal_statistics.ipynb
+          - gee_intro/Analysis/zonal_stats_by_group.ipynb
   - Geemap Intro:
-      - geemap_intro/geemap_intro.ipynb
+      - geemap_intro/1_introduction.md
+      - geemap_intro/2_installation.md
+      - geemap_intro/3_create_maps.ipynb
   - Blog: https://blog.gishub.org
   - YouTube Channel: https://www.youtube.com/c/QiushengWu
   - Report Issues: https://github.com/giswqs/GEE-Courses/issues
