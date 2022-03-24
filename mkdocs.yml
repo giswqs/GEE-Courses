@@ -12,9 +12,10 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.instant
-    # - navigation.expand
-    # - navigation.tabs
+    - navigation.tracking
+    - navigation.top
     - search.highlight
+    - search.share
   custom_dir: "docs/overrides"
 
 plugins:
@@ -24,16 +25,17 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       ignore_h1_titles: False
-      execute: False
+      execute: True
 
 markdown_extensions:
   - attr_list
   - toc:
       permalink: true
 
-# google_analytics:
-#   - UA-XXXXXXXX-X
-#   - auto
+extra:
+  analytics:
+    provider: google
+    property: UA-186406134-1
 
 nav:
   - Home: index.md
@@ -62,7 +64,10 @@ nav:
   - Geemap Intro:
       - geemap_intro/1_introduction.md
       - geemap_intro/2_installation.md
-      - geemap_intro/3_create_maps.ipynb
+      - geemap_intro/3_creating_maps.ipynb
+      - geemap_intro/4_using_basemaps.ipynb
+      - geemap_intro/5_gee_datasets.ipynb
   - Blog: https://blog.gishub.org
   - YouTube Channel: https://www.youtube.com/c/QiushengWu
   - Report Issues: https://github.com/giswqs/GEE-Courses/issues
+  - Ask Questions: https://github.com/giswqs/GEE-Courses/discussions
