@@ -24,7 +24,7 @@ plugins:
   - git-revision-date
   - mkdocs-jupyter:
       include_source: True
-      ignore_h1_titles: False
+      ignore_h1_titles: True
       execute: True
 
 markdown_extensions:
@@ -67,8 +67,8 @@ nav:
       - geemap_intro/03_creating_maps.ipynb
       - geemap_intro/04_using_basemaps.ipynb
       - geemap_intro/05_gee_datasets.ipynb
-      - geemap_intro/06_inspector_and_plotting.md
-      - geemap_intro/07_data_visualization.md
+      - geemap_intro/06_inspector_and_plotting.ipynb
+      - geemap_intro/07_data_visualization.ipynb
       - geemap_intro/08_legend_and_colorbar.ipynb
       - geemap_intro/09_split_map.ipynb
       - geemap_intro/10_ts_inspector.ipynb

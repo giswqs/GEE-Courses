@@ -1,5 +1,3 @@
-# Installation
-
 ## Earth Engine Account
 
 To use **geemap**, you must first [sign up](https://earthengine.google.com/signup/) for a [Google Earth Engine](https://earthengine.google.com/) account.
