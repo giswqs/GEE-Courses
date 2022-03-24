@@ -62,11 +62,16 @@ nav:
           - gee_intro/Analysis/zonal_statistics.ipynb
           - gee_intro/Analysis/zonal_stats_by_group.ipynb
   - Geemap Intro:
-      - geemap_intro/1_introduction.md
-      - geemap_intro/2_installation.md
-      - geemap_intro/3_creating_maps.ipynb
-      - geemap_intro/4_using_basemaps.ipynb
-      - geemap_intro/5_gee_datasets.ipynb
+      - geemap_intro/01_introduction.md
+      - geemap_intro/02_installation.md
+      - geemap_intro/03_creating_maps.ipynb
+      - geemap_intro/04_using_basemaps.ipynb
+      - geemap_intro/05_gee_datasets.ipynb
+      - geemap_intro/06_inspector_and_plotting.md
+      - geemap_intro/07_data_visualization.md
+      - geemap_intro/08_legend_and_colorbar.ipynb
+      - geemap_intro/09_split_map.ipynb
+      - geemap_intro/10_ts_inspector.ipynb
   - Blog: https://blog.gishub.org
   - YouTube Channel: https://www.youtube.com/c/QiushengWu
   - Report Issues: https://github.com/giswqs/GEE-Courses/issues
