@@ -25,7 +25,7 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       ignore_h1_titles: True
-      execute: False
+      execute: True
 
 markdown_extensions:
   - attr_list
@@ -73,6 +73,7 @@ nav:
       - geemap_intro/09_split_map.ipynb
       - geemap_intro/10_ts_inspector.ipynb
       - geemap_intro/11_statistics.ipynb
+      - geemap_intro/12_data_export.ipynb
   - Geemap Complete:
       - Introduction:
           - geemap_complete/introduction/template.ipynb
