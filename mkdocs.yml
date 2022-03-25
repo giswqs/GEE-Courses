@@ -72,7 +72,7 @@ nav:
       - geemap_intro/08_legend_and_colorbar.ipynb
       - geemap_intro/09_split_map.ipynb
       - geemap_intro/10_ts_inspector.ipynb
-      - geemap_intro/11_statistics.ipynb
+      - geemap_intro/11_analysis.ipynb
       - geemap_intro/12_data_export.ipynb
   - Geemap Complete:
       - Introduction:
