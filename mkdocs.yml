@@ -25,7 +25,7 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       ignore_h1_titles: True
-      execute: True
+      execute: False
 
 markdown_extensions:
   - attr_list
@@ -73,6 +73,23 @@ nav:
       - geemap_intro/09_split_map.ipynb
       - geemap_intro/10_ts_inspector.ipynb
       - geemap_intro/11_statistics.ipynb
+  - Geemap Complete:
+      - Introduction:
+          - geemap_complete/introduction/template.ipynb
+      - Creating Maps:
+          - geemap_complete/maps/template.ipynb
+      - Datasets:
+          - geemap_complete/datasets/template.ipynb
+      - Visualization:
+          - geemap_complete/visualization/template.ipynb
+      - Analysis:
+          - geemap_complete/analysis/template.ipynb
+      - Data Export:
+          - geemap_complete/export/template.ipynb
+      - Web Apps:
+          - geemap_complete/webapps/template.ipynb
+      - Appliations:
+          - geemap_complete/applications/template.ipynb
   - Blog: https://blog.gishub.org
   - YouTube Channel: https://www.youtube.com/c/QiushengWu
   - Report Issues: https://github.com/giswqs/GEE-Courses/issues
