@@ -13,9 +13,10 @@
 
 I am developing three courses for learning the Google Earth Engine (GEE) Python API and geemap. 
 
-- [Introduction to the Earth Engine Python API](#introduction-to-the-earth-engine-python-api)
-- [Introducton to Geemap](#introducton-to-geemap)
-- [The Complete Geemap Course: From Zero to Export](#the-complete-geemap-course-from-zero-to-export)
+- [GEE-Courses](#gee-courses)
+  - [Introduction to the Earth Engine Python API](#introduction-to-the-earth-engine-python-api)
+  - [Introducton to Geemap](#introducton-to-geemap)
+  - [The Complete Geemap Course: From Novice to Expert](#the-complete-geemap-course-from-novice-to-expert)
 
 ## Introduction to the Earth Engine Python API
 
@@ -23,7 +24,7 @@ I am developing three courses for learning the Google Earth Engine (GEE) Python 
     - [Image visualization](https://courses.geemap.org/gee_intro/Image/image_visualization)
     - [Image metadata](https://courses.geemap.org/gee_intro/Image/image_metadata)
     - [Image overview](https://courses.geemap.org/gee_intro/Image/image_overview)
-    - [Mathmatical operations](https://courses.geemap.org/gee_intro/Image/math_operations)
+    - [Mathematical operations](https://courses.geemap.org/gee_intro/Image/math_operations)
     - [Conditional operations](https://courses.geemap.org/gee_intro/Image/conditional_operations)
     - [Colorbar](https://courses.geemap.org/gee_intro/Image/image_colorbar)
 - Image Collection:
@@ -57,6 +58,6 @@ I am developing three courses for learning the Google Earth Engine (GEE) Python 
 - [Data export](https://courses.geemap.org/geemap_intro/12_data_export)
 
 
-## The Complete Geemap Course: From Zero to Export
+## The Complete Geemap Course: From Novice to Expert
 
 Under construction.
